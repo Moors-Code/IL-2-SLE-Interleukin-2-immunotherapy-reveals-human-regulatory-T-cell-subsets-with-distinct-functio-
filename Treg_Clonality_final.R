@@ -80,8 +80,7 @@ table.to.percentage <- function(x){
 } # Give a table as input
 
 # Setting the working directory. 
-# Cellranger output files and preprocessed dataset (handed over from Dominic) can be reached in sub folders here.
-setwd("~/NAS/Jan/Experiments and Data/210310 - Exp 027 - Lupus collaboration/Treg Run 102022")  
+setwd("~/Data/Lupus collaboration/Treg Run 102022")
 
 ########################################################################################################################################################################
 # Part 1: Reading in the pre-processed Seurat object and preparation for downstream analysis.
